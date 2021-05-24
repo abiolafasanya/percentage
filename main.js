@@ -10,7 +10,10 @@ console.clear()
         let evaluate = Math.floor((actualScore / obtainableScore) * 100)
 
         const total = `${evaluate}%`
-        console.log(`${evaluate}%`)
+        const color = document.querySelector('.result-container')
+   
+        evaluate > 79 ? color.classList.add('pass') : color.classList.add('fail')
         let result = document.getElementById('result').innerHTML = `Your percentage grade is <br> <b>${total}</b>`
+        console.log(`${evaluate}%`)
         
     })
