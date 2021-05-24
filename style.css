@@ -85,18 +85,8 @@ body{
     }
 
     .result-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        background-color: #92a2e4;
-        box-sizing: border-box;
-        padding: 1.5rem;
-        width: 90%;
-        margin-top: 2rem;
+         width: 90%;
         font-size: 1.5rem;
-        text-align: center;
-        border-radius: .2rem;
     }
 
     .btn{
