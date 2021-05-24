@@ -94,4 +94,8 @@ body{
         text-align: center;
         border-radius: .2rem;
     }
+
+    .btn{
+        font-size: 16px;
+    }
   }

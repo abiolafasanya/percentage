@@ -4,4 +4,4 @@
 
 ### To make a percentage checker
 
-[Click this link to view percentage calculator]('https://fastbeetech.github.io/percentage/')
+[Click this link to view percentage calculator](https://fastbeetech.github.io/percentage/)
