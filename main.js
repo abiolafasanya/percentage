@@ -11,8 +11,8 @@ console.clear()
 
         if (actualScore > obtainableScore) {
             alert('Please input a valid number')
-            return
         }
+
         else{
             const total = `${evaluate}%`
             const color = document.querySelector('.result-container')
