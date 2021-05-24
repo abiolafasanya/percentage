@@ -5,7 +5,7 @@
     padding: 0;
 }
 body{
-    background-color: #f2f4fc;
+    background-color: rgba(243, 244, 246, 1);
     font-family: poppins, sans-serif;
 }
 .container{
@@ -29,21 +29,21 @@ body{
     border-radius: 0.25rem;
     outline: none;
     border: none;
-    background-color: rgb(197, 205, 216)
+    background-color: rgb(197, 205, 216);
 }
 .btn{
     padding: 1rem;
     border: none;
     color: rgb(215, 223, 245);
-    background-color: rgb(28, 73, 197);
+    background-color: rgba(139, 92, 246, 1);
     border-radius: 0.25rem;
     cursor: pointer;
     display: block;
     font-size: 24px;
 }
 .btn:hover{
-    color: rgb(192, 192, 233);
-    background-color: rgb(28, 73, 197);
+    color: color: rgba(237, 233, 254, 1);
+    background-color: rgba(167, 139, 250, 1);
 }
 .btn:focus{
     border: none;
@@ -54,7 +54,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-color: #92a2e4;
+    background-color: rgba(167, 139, 250, 1);
     box-sizing: border-box;
     padding: 1.5rem;
     width: 75%;
