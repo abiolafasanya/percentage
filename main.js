@@ -9,11 +9,16 @@ console.clear()
         let obtainableScore = parseInt(document.getElementById("obtainable").value)
         let evaluate = Math.floor((actualScore / obtainableScore) * 100)
 
-        const total = `${evaluate}%`
-        const color = document.querySelector('.result-container')
-   
-        evaluate > 79 ? color.classList.add('pass') : color.classList.add('fail')
-        let result = document.getElementById('result').innerHTML = `Your percentage grade is <br> <b>${total}</b>`
-        console.log(`${evaluate}%`)
+        if (actualScore > obtainableScore) {
+            alert('Please input a valid number')
+        }
+        else{
+            const total = `${evaluate}%`
+            const color = document.querySelector('.result-container')
+            
+            evaluate > 79 ? color.classList.add('pass') : color.classList.add('fail')
+            let result = document.getElementById('result').innerHTML = `Your percentage grade is <br> <b>${total}</b>`
+            console.log(`${evaluate}%`)
+        }
         
     })
