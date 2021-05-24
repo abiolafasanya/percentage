@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #f2f4fc;
+    font-family: poppins, sans-serif;
+}
+.container{
+    width: 75%;
+    padding: 1.5rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 24px;
+    text-align: center;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.form-control{
+    padding: 1rem;
+    border-radius: 0.25rem;
+    outline: none;
+    border: none;
+    background-color: rgb(197, 205, 216)
+}
+.btn{
+    padding: 1rem;
+    border: none;
+    color: rgb(215, 223, 245);
+    background-color: rgb(28, 73, 197);
+    border-radius: 0.25rem;
+    cursor: pointer;
+    display: block;
+}
+.btn:hover{
+    color: rgb(192, 192, 233);
+    background-color: rgb(28, 73, 197);
+}
+.btn:focus{
+    border: none;
+    outline:none;
+}
+.result-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #92a2e4;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    width: 75%;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+    border-radius: .2rem;
+}
+.green{
+    background-color: rgb(97, 224, 97)
+}
+.red{
+    background-color: rgb(224, 122, 97)
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 1280;
+        padding: 1.5rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .result-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        background-color: #92a2e4;
+        box-sizing: border-box;
+        padding: 1.5rem;
+        width: 90%;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        text-align: center;
+        border-radius: .2rem;
+    }
+  }
