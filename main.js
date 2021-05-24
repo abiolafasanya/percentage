@@ -10,7 +10,7 @@ console.clear()
         let evaluate = Math.floor((actualScore / obtainableScore) * 100)
 
         if (actualScore > obtainableScore) {
-            alert('Please input a valid number')
+            alert('Your actual socre is higher than Obtainable score please check and retry')
         }
 
         else{
