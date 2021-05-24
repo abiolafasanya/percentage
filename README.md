@@ -1,4 +1,4 @@
-# percentage
+# percentage Checker
 
 ## This is a zuri challenge project
 
