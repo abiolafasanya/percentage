@@ -16,8 +16,8 @@ console.clear()
             const total = `${evaluate}%`
             const color = document.querySelector('.result-container')
             
-            evaluate > 79 ? color.classList.add('pass') : color.classList.add('fail')
-            let msgs = evaluate > 79 ? "your score is 80% and above" : "Your score is less than 80%"
+            evaluate > 69 ? color.classList.add('pass') : color.classList.add('fail')
+            let msgs = evaluate > 69 ? "your score is 70% and above" : "Your score is less than 70%"
             
             let result = document.getElementById('result').innerHTML = `Your percentage grade is <br> <b>${total}</b> <p>${msgs}<\p>`
             console.log(`${evaluate}%`)
