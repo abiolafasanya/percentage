@@ -1,6 +1,6 @@
 # percentage Checker
 
-## This is a zuri challenge project
+## This is a zuri Inspired project
 
 ### To make a percentage checker
 
