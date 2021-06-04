@@ -2,6 +2,8 @@ console.clear()
 
     document.addEventListener("submit", (e) => {
         e.preventDefault()
+
+        document.querySelector('.result-container').classList.remove('fail')
         let actualScore = parseInt(document.getElementById("actual").value)
         
         let obtainableScore = parseInt(document.getElementById("obtainable").value)
