@@ -4,9 +4,9 @@ console.clear()
         e.preventDefault()
 
         document.querySelector('.result-container').classList.remove('fail')
-        let actualScore = parseFloat(document.getElementById("actual").value)
+        let actualScore = document.getElementById("actual").value
         
-        let obtainableScore = parseFloat(document.getElementById("obtainable").value)
+        let obtainableScore = document.getElementById("obtainable").value
         let evaluate = Math.floor((actualScore / obtainableScore) * 100)
         
 
